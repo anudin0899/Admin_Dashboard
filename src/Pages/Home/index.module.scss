@@ -1,0 +1,39 @@
+@import '../../StyleHelpers/Variables.scss';
+
+
+.page_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+    // background: #F5F5F5;
+
+    .home {
+        width: 100%;
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+
+        @include breakpoint(md) {}
+
+        @include mediumScreen {}
+
+        @include LargeScreen {}
+
+        .homeContainer {
+            margin-left: 300px;
+            width: 100%;
+            height: 100vh;
+            padding: 10px;
+            transition: margin-left .1s ease-in;
+
+            &.Con_inactive {
+                margin-left: 80px;
+            }
+        }
+
+    }
+
+   
+}

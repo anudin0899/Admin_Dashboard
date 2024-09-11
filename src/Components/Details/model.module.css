@@ -1,0 +1,56 @@
+.model_wrap {
+  background: #fff;
+  position: fixed;
+  width: 40%;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  z-index: 9999;
+}
+.model_wrap::-webkit-scrollbar {
+  display: none;
+}
+.model_wrap .icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+.model_wrap .head {
+  padding: 20px 0;
+  position: fixed;
+  color: #fff;
+  background-color: #111;
+  width: 100%;
+}
+.model_wrap .head span {
+  padding: 20px;
+}
+.model_wrap .form_wrap {
+  margin-top: 100px;
+  padding: 20px 40px;
+}
+.model_wrap .form_wrap .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.model_wrap .form_wrap .title h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.model_wrap .form_wrap .content div {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+.model_wrap .form_wrap .content div img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 20px;
+}/*# sourceMappingURL=model.module.css.map */

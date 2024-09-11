@@ -1,0 +1,21 @@
+.formInput_wrap {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        margin: 10px 0;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    input {
+        padding: 13px;
+        border: 1px solid #111;
+        border-radius: 5px;
+        outline: none;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        background: #FAFAFA;
+    }
+}

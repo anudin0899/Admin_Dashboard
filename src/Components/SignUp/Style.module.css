@@ -1,0 +1,151 @@
+.page_wrapper {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page_wrapper .container {
+  background-color: #fff;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+}
+.page_wrapper .container .form_container {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  transition: all 0.6s ease-in-out;
+}
+.page_wrapper .container .form_container form {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  text-align: center;
+}
+.page_wrapper .container .form_container form h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+.page_wrapper .container .form_container form h2 {
+  text-align: center;
+}
+.page_wrapper .container .form_container form p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+.page_wrapper .container .form_container form span {
+  font-size: 12px;
+}
+.page_wrapper .container .form_container form a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+.page_wrapper .container .form_container form button {
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 1px solid #3399ff;
+  background-color: #3399ff;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  cursor: pointer;
+}
+.page_wrapper .container .form_container form button:active {
+  transform: scale(0.95);
+}
+.page_wrapper .container .form_container form button:focus {
+  outline: none;
+}
+.page_wrapper .container .form_container form .ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.page_wrapper .container .form_container form input {
+  background-color: #eee;
+  border: none;
+  padding: 1rem 0.5rem;
+  margin: 8px 0;
+  width: 100%;
+  border-radius: 0.3rem;
+}
+.page_wrapper .container .overlayContainer {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+}
+.page_wrapper .container .overlayContainer .overlay {
+  background: #3399ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #ffffff;
+  position: relative;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+.page_wrapper .container .overlayContainer .overlay .overlayPanel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+.page_wrapper .container .overlayContainer .overlay .overlayPanel button {
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 1px solid #3399ff;
+  background-color: #3399ff;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  cursor: pointer;
+}
+.page_wrapper .container .overlayContainer .overlay .overlayPanel button:active {
+  transform: scale(0.95);
+}
+.page_wrapper .container .overlayContainer .overlay .overlayPanel button:focus {
+  outline: none;
+}
+.page_wrapper .container .overlayContainer .overlay .overlayPanel .ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}/*# sourceMappingURL=Style.module.css.map */

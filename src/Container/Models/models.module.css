@@ -1,0 +1,51 @@
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.popup .content_wrap {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  min-width: 500px;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.36);
+}
+.popup .content_wrap .Title {
+  margin-bottom: 20px;
+}
+.popup .content_wrap .Title h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.popup .content_wrap .TitleMsg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.popup .content_wrap .TitleMsg h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.popup .content_wrap .content {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.popup .content_wrap .btnBox {
+  display: flex;
+  margin: 10px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=models.module.css.map */

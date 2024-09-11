@@ -1,0 +1,133 @@
+.model_wrap {
+    background: #fff;
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    z-index: 9999;
+
+    &::-webkit-scrollbar {
+        display: none;
+        /* Hides the scrollbar thumb */
+    }
+
+    .icon {
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .head {
+        padding: 20px 0;
+        position: fixed;
+        background: #111;
+        color: #fff;
+        width: 100%;
+
+        span {
+            padding: 20px;
+        }
+    }
+
+    .form_wrap {
+        padding: 20px;
+        overflow: auto;
+        margin-top: 80px;
+
+        form {
+            padding: 10px;
+
+            .formImage_wrap {
+                height: 150px;
+                background-color: #f2f2f2;
+                border-radius: 5px;
+                border: 1px dashed #111;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 10px;
+                cursor: pointer;
+
+                input {
+                    display: none;
+                }
+            }
+
+            .showImg_wrap {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+                background-color: #f2f2f2;
+                gap: 10px;
+                margin-bottom: 2px;
+                font-size: 14px;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    object-fit: contain;
+                }
+
+                .imgClearBtn {
+                    button {
+                        background: none;
+                        color: red;
+                        font-size: 16px;
+                        padding: 5px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .formInput_wrap {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    margin: 10px 0;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+
+                input,
+                select,
+                textarea {
+                    padding: 12px;
+                    border: 1px solid #111;
+                    border-radius: 5px;
+                    outline: none;
+                    margin-bottom: 10px;
+                    font-size: 12px;
+                    background: #FAFAFA;
+                }
+
+
+            }
+
+            .formBtn_wrap {
+                margin: 10px 0;
+
+                button {
+                    width: 100%;
+                    padding: 12px;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    background-color: #111;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    outline: none;
+                    border: none;
+                }
+            }
+
+        }
+    }
+}
